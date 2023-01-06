@@ -1,0 +1,3 @@
+C:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/cmake-build-debug/CMakeFiles/IIA_tp2.dir
+C:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
