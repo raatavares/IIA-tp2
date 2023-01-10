@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: IIA_tp2
+# Project: IIA_tp2_H
 # Configurations: Debug
 # =============================================================================
 
@@ -41,59 +41,162 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target IIA_tp2
+# Object build statements for EXECUTABLE target IIA_tp2_TrepaColinas
 
 
 #############################################
-# Order-only phony target for IIA_tp2
+# Order-only phony target for IIA_tp2_TrepaColinas
 
-build cmake_object_order_depends_target_IIA_tp2: phony || CMakeFiles/IIA_tp2.dir
+build cmake_object_order_depends_target_IIA_tp2_TrepaColinas: phony || CMakeFiles/IIA_tp2_TrepaColinas.dir
 
-build CMakeFiles/IIA_tp2.dir/main.c.obj: C_COMPILER__IIA_tp2_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/main.c || cmake_object_order_depends_target_IIA_tp2
-  DEP_FILE = CMakeFiles\IIA_tp2.dir\main.c.obj.d
+build CMakeFiles/IIA_tp2_TrepaColinas.dir/TrepaColinas/main.c.obj: C_COMPILER__IIA_tp2_TrepaColinas_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/TrepaColinas/main.c || cmake_object_order_depends_target_IIA_tp2_TrepaColinas
+  DEP_FILE = CMakeFiles\IIA_tp2_TrepaColinas.dir\TrepaColinas\main.c.obj.d
   FLAGS = -g -std=gnu11
   INCLUDES = -IC:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/.
-  OBJECT_DIR = CMakeFiles\IIA_tp2.dir
-  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2.dir
+  OBJECT_DIR = CMakeFiles\IIA_tp2_TrepaColinas.dir
+  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2_TrepaColinas.dir\TrepaColinas
 
-build CMakeFiles/IIA_tp2.dir/TrepaColinas/algoritmo.c.obj: C_COMPILER__IIA_tp2_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/TrepaColinas/algoritmo.c || cmake_object_order_depends_target_IIA_tp2
-  DEP_FILE = CMakeFiles\IIA_tp2.dir\TrepaColinas\algoritmo.c.obj.d
+build CMakeFiles/IIA_tp2_TrepaColinas.dir/TrepaColinas/algoritmo.c.obj: C_COMPILER__IIA_tp2_TrepaColinas_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/TrepaColinas/algoritmo.c || cmake_object_order_depends_target_IIA_tp2_TrepaColinas
+  DEP_FILE = CMakeFiles\IIA_tp2_TrepaColinas.dir\TrepaColinas\algoritmo.c.obj.d
   FLAGS = -g -std=gnu11
   INCLUDES = -IC:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/.
-  OBJECT_DIR = CMakeFiles\IIA_tp2.dir
-  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2.dir\TrepaColinas
+  OBJECT_DIR = CMakeFiles\IIA_tp2_TrepaColinas.dir
+  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2_TrepaColinas.dir\TrepaColinas
 
-build CMakeFiles/IIA_tp2.dir/TrepaColinas/utils.c.obj: C_COMPILER__IIA_tp2_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/TrepaColinas/utils.c || cmake_object_order_depends_target_IIA_tp2
-  DEP_FILE = CMakeFiles\IIA_tp2.dir\TrepaColinas\utils.c.obj.d
+build CMakeFiles/IIA_tp2_TrepaColinas.dir/TrepaColinas/utils.c.obj: C_COMPILER__IIA_tp2_TrepaColinas_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/TrepaColinas/utils.c || cmake_object_order_depends_target_IIA_tp2_TrepaColinas
+  DEP_FILE = CMakeFiles\IIA_tp2_TrepaColinas.dir\TrepaColinas\utils.c.obj.d
   FLAGS = -g -std=gnu11
   INCLUDES = -IC:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/.
-  OBJECT_DIR = CMakeFiles\IIA_tp2.dir
-  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2.dir\TrepaColinas
+  OBJECT_DIR = CMakeFiles\IIA_tp2_TrepaColinas.dir
+  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2_TrepaColinas.dir\TrepaColinas
 
-build CMakeFiles/IIA_tp2.dir/TrepaColinas/funcao.c.obj: C_COMPILER__IIA_tp2_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/TrepaColinas/funcao.c || cmake_object_order_depends_target_IIA_tp2
-  DEP_FILE = CMakeFiles\IIA_tp2.dir\TrepaColinas\funcao.c.obj.d
+build CMakeFiles/IIA_tp2_TrepaColinas.dir/TrepaColinas/funcao.c.obj: C_COMPILER__IIA_tp2_TrepaColinas_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/TrepaColinas/funcao.c || cmake_object_order_depends_target_IIA_tp2_TrepaColinas
+  DEP_FILE = CMakeFiles\IIA_tp2_TrepaColinas.dir\TrepaColinas\funcao.c.obj.d
   FLAGS = -g -std=gnu11
   INCLUDES = -IC:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/.
-  OBJECT_DIR = CMakeFiles\IIA_tp2.dir
-  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2.dir\TrepaColinas
+  OBJECT_DIR = CMakeFiles\IIA_tp2_TrepaColinas.dir
+  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2_TrepaColinas.dir\TrepaColinas
+
+build CMakeFiles/IIA_tp2_TrepaColinas.dir/TrepaColinas/common.c.obj: C_COMPILER__IIA_tp2_TrepaColinas_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/TrepaColinas/common.c || cmake_object_order_depends_target_IIA_tp2_TrepaColinas
+  DEP_FILE = CMakeFiles\IIA_tp2_TrepaColinas.dir\TrepaColinas\common.c.obj.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -IC:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/.
+  OBJECT_DIR = CMakeFiles\IIA_tp2_TrepaColinas.dir
+  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2_TrepaColinas.dir\TrepaColinas
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target IIA_tp2
+# Link build statements for EXECUTABLE target IIA_tp2_TrepaColinas
 
 
 #############################################
-# Link the executable IIA_tp2.exe
+# Link the executable IIA_tp2_TrepaColinas.exe
 
-build IIA_tp2.exe: C_EXECUTABLE_LINKER__IIA_tp2_Debug CMakeFiles/IIA_tp2.dir/main.c.obj CMakeFiles/IIA_tp2.dir/TrepaColinas/algoritmo.c.obj CMakeFiles/IIA_tp2.dir/TrepaColinas/utils.c.obj CMakeFiles/IIA_tp2.dir/TrepaColinas/funcao.c.obj
+build IIA_tp2_TrepaColinas.exe: C_EXECUTABLE_LINKER__IIA_tp2_TrepaColinas_Debug CMakeFiles/IIA_tp2_TrepaColinas.dir/TrepaColinas/main.c.obj CMakeFiles/IIA_tp2_TrepaColinas.dir/TrepaColinas/algoritmo.c.obj CMakeFiles/IIA_tp2_TrepaColinas.dir/TrepaColinas/utils.c.obj CMakeFiles/IIA_tp2_TrepaColinas.dir/TrepaColinas/funcao.c.obj CMakeFiles/IIA_tp2_TrepaColinas.dir/TrepaColinas/common.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\IIA_tp2.dir
+  OBJECT_DIR = CMakeFiles\IIA_tp2_TrepaColinas.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = IIA_tp2.exe
-  TARGET_IMPLIB = libIIA_tp2.dll.a
-  TARGET_PDB = IIA_tp2.exe.dbg
+  TARGET_FILE = IIA_tp2_TrepaColinas.exe
+  TARGET_IMPLIB = libIIA_tp2_TrepaColinas.dll.a
+  TARGET_PDB = IIA_tp2_TrepaColinas.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IIA_tp2_MetodoEvolutivo
+
+
+#############################################
+# Order-only phony target for IIA_tp2_MetodoEvolutivo
+
+build cmake_object_order_depends_target_IIA_tp2_MetodoEvolutivo: phony || CMakeFiles/IIA_tp2_MetodoEvolutivo.dir
+
+build CMakeFiles/IIA_tp2_MetodoEvolutivo.dir/MetodoEvolutivo/main.c.obj: C_COMPILER__IIA_tp2_MetodoEvolutivo_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/MetodoEvolutivo/main.c || cmake_object_order_depends_target_IIA_tp2_MetodoEvolutivo
+  DEP_FILE = CMakeFiles\IIA_tp2_MetodoEvolutivo.dir\MetodoEvolutivo\main.c.obj.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -IC:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/.
+  OBJECT_DIR = CMakeFiles\IIA_tp2_MetodoEvolutivo.dir
+  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2_MetodoEvolutivo.dir\MetodoEvolutivo
+
+build CMakeFiles/IIA_tp2_MetodoEvolutivo.dir/MetodoEvolutivo/metodoEvolutivo.c.obj: C_COMPILER__IIA_tp2_MetodoEvolutivo_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/MetodoEvolutivo/metodoEvolutivo.c || cmake_object_order_depends_target_IIA_tp2_MetodoEvolutivo
+  DEP_FILE = CMakeFiles\IIA_tp2_MetodoEvolutivo.dir\MetodoEvolutivo\metodoEvolutivo.c.obj.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -IC:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/.
+  OBJECT_DIR = CMakeFiles\IIA_tp2_MetodoEvolutivo.dir
+  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2_MetodoEvolutivo.dir\MetodoEvolutivo
+
+build CMakeFiles/IIA_tp2_MetodoEvolutivo.dir/MetodoEvolutivo/common.c.obj: C_COMPILER__IIA_tp2_MetodoEvolutivo_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/MetodoEvolutivo/common.c || cmake_object_order_depends_target_IIA_tp2_MetodoEvolutivo
+  DEP_FILE = CMakeFiles\IIA_tp2_MetodoEvolutivo.dir\MetodoEvolutivo\common.c.obj.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -IC:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/.
+  OBJECT_DIR = CMakeFiles\IIA_tp2_MetodoEvolutivo.dir
+  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2_MetodoEvolutivo.dir\MetodoEvolutivo
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IIA_tp2_MetodoEvolutivo
+
+
+#############################################
+# Link the executable IIA_tp2_MetodoEvolutivo.exe
+
+build IIA_tp2_MetodoEvolutivo.exe: C_EXECUTABLE_LINKER__IIA_tp2_MetodoEvolutivo_Debug CMakeFiles/IIA_tp2_MetodoEvolutivo.dir/MetodoEvolutivo/main.c.obj CMakeFiles/IIA_tp2_MetodoEvolutivo.dir/MetodoEvolutivo/metodoEvolutivo.c.obj CMakeFiles/IIA_tp2_MetodoEvolutivo.dir/MetodoEvolutivo/common.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\IIA_tp2_MetodoEvolutivo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = IIA_tp2_MetodoEvolutivo.exe
+  TARGET_IMPLIB = libIIA_tp2_MetodoEvolutivo.dll.a
+  TARGET_PDB = IIA_tp2_MetodoEvolutivo.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IIA_tp2_MetodoHibrido
+
+
+#############################################
+# Order-only phony target for IIA_tp2_MetodoHibrido
+
+build cmake_object_order_depends_target_IIA_tp2_MetodoHibrido: phony || CMakeFiles/IIA_tp2_MetodoHibrido.dir
+
+build CMakeFiles/IIA_tp2_MetodoHibrido.dir/MetodoHibrido/main.c.obj: C_COMPILER__IIA_tp2_MetodoHibrido_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/MetodoHibrido/main.c || cmake_object_order_depends_target_IIA_tp2_MetodoHibrido
+  DEP_FILE = CMakeFiles\IIA_tp2_MetodoHibrido.dir\MetodoHibrido\main.c.obj.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -IC:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/.
+  OBJECT_DIR = CMakeFiles\IIA_tp2_MetodoHibrido.dir
+  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2_MetodoHibrido.dir\MetodoHibrido
+
+build CMakeFiles/IIA_tp2_MetodoHibrido.dir/MetodoHibrido/common.c.obj: C_COMPILER__IIA_tp2_MetodoHibrido_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/MetodoHibrido/common.c || cmake_object_order_depends_target_IIA_tp2_MetodoHibrido
+  DEP_FILE = CMakeFiles\IIA_tp2_MetodoHibrido.dir\MetodoHibrido\common.c.obj.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -IC:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/.
+  OBJECT_DIR = CMakeFiles\IIA_tp2_MetodoHibrido.dir
+  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2_MetodoHibrido.dir\MetodoHibrido
+
+build CMakeFiles/IIA_tp2_MetodoHibrido.dir/MetodoHibrido/metodoHibrido.c.obj: C_COMPILER__IIA_tp2_MetodoHibrido_Debug C$:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/MetodoHibrido/metodoHibrido.c || cmake_object_order_depends_target_IIA_tp2_MetodoHibrido
+  DEP_FILE = CMakeFiles\IIA_tp2_MetodoHibrido.dir\MetodoHibrido\metodoHibrido.c.obj.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -IC:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/.
+  OBJECT_DIR = CMakeFiles\IIA_tp2_MetodoHibrido.dir
+  OBJECT_FILE_DIR = CMakeFiles\IIA_tp2_MetodoHibrido.dir\MetodoHibrido
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IIA_tp2_MetodoHibrido
+
+
+#############################################
+# Link the executable IIA_tp2_MetodoHibrido.exe
+
+build IIA_tp2_MetodoHibrido.exe: C_EXECUTABLE_LINKER__IIA_tp2_MetodoHibrido_Debug CMakeFiles/IIA_tp2_MetodoHibrido.dir/MetodoHibrido/main.c.obj CMakeFiles/IIA_tp2_MetodoHibrido.dir/MetodoHibrido/common.c.obj CMakeFiles/IIA_tp2_MetodoHibrido.dir/MetodoHibrido/metodoHibrido.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\IIA_tp2_MetodoHibrido.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = IIA_tp2_MetodoHibrido.exe
+  TARGET_IMPLIB = libIIA_tp2_MetodoHibrido.dll.a
+  TARGET_PDB = IIA_tp2_MetodoHibrido.exe.dbg
 
 
 #############################################
@@ -121,7 +224,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build IIA_tp2: phony IIA_tp2.exe
+build IIA_tp2_MetodoEvolutivo: phony IIA_tp2_MetodoEvolutivo.exe
+
+build IIA_tp2_MetodoHibrido: phony IIA_tp2_MetodoHibrido.exe
+
+build IIA_tp2_TrepaColinas: phony IIA_tp2_TrepaColinas.exe
 
 # =============================================================================
 # Folder targets.
@@ -131,7 +238,7 @@ build IIA_tp2: phony IIA_tp2.exe
 #############################################
 # Folder: C:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/cmake-build-debug
 
-build all: phony IIA_tp2.exe
+build all: phony IIA_tp2_TrepaColinas.exe IIA_tp2_MetodoEvolutivo.exe IIA_tp2_MetodoHibrido.exe
 
 # =============================================================================
 # Built-in targets

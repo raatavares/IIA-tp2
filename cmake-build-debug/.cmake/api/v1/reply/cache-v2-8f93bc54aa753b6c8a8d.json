@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "IIA_tp2"
+			"value" : "IIA_tp2_H"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1096,6 +1096,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/cmake-build-debug"
+		},
+		{
+			"name" : "IIA_tp2_H_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2/cmake-build-debug"
+		},
+		{
+			"name" : "IIA_tp2_H_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "IIA_tp2_H_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/ricar/OneDrive/Documentos/GitHub/IIA-tp2"
 		},
 		{
 			"name" : "IIA_tp2_IS_TOP_LEVEL",

@@ -2,12 +2,15 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#define _CRT_SECURE_NO_WARNINGS 1
 #include "utils.h"
+#include "algoritmo.h"
+#include "main.h"
 
 // Leitura do ficheiro de input
 // Recebe: nome do ficheiro, numero de vertices (ptr), numero de iteracoes (ptr)
 // Devolve a matriz de adjacencias
-int* init_dados(char *nome, int *n, int *iter)
+int* init_dados(char *nome, int *n, int *iter, int *k)
 {
 	FILE *f;
 	int *p;
@@ -23,7 +26,7 @@ int* init_dados(char *nome, int *n, int *iter)
 		exit(1);
 	}
 	// Numero de vertices
-	fscanf(f, "k %d", n);
+	fscanf(f, "k %d", k);
     while(strcmp(str,"edge"))
         fscanf(f,"%s",str);
     // Numero de vertices
@@ -45,11 +48,6 @@ int* init_dados(char *nome, int *n, int *iter)
         *(p+(*n)*(lin-1)+col-1)=1;
         *(p+(*n)*(col-1)+lin-1)=1;
     }
-    printf("N: %d\n", *n);
-    for(i=0; i<*n; i++){
-        for(j=0; j<*n; j++)
-            printf("%d ", (*(p+(*n)*i+j)));
-        printf("\n");}
 	fclose(f);
 	return p;
 }
@@ -97,12 +95,6 @@ void substitui(int a[], int b[], int n)
     for(i=0; i<n; i++)
         a[i]=b[i];
     return;
-}
-
-// Inicializa o gerador de numeros aleatorios
-void init_rand()
-{
-	srand((unsigned)time(NULL));
 }
 
 // Devolve valor inteiro aleatorio entre min e max
